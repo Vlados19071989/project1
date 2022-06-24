@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./slick/slick.css">
+	<link rel="stylesheet" href="./fonts/icomoon-v1.0/style.css">
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/heder-top.css">
+	<link rel="stylesheet" href="./css/heder-bottom.css">
+	<link rel="stylesheet" href="./css/sliders.css">
+	<link rel="stylesheet" href="./css/produkt.css">
+	<link rel="stylesheet" href="./css/brend.css">
+	<link rel="stylesheet" href="./css/club.css">
+	<link rel="stylesheet" href="./css/services.css">
+	<link rel="stylesheet" href="./css/footer.css">
+	<link rel="stylesheet" href="./css/media.css">
+	<title>Document</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="content">
+			<heder class="heder">
+				<div class="heder-top">
+					<div class="heder-top__row row">
+						<div class="heder-city">
+							<span>Ваш город:</span>
+							<a href="#">Самара</a>
+						</div>
+						<div class="messengers">
+							<a href="https://www.whatsapp.com/" class="icon-whatsapp" target="_blank"></a>
+							<a href="https://web.telegram.org/" class="icon-telegram" target="_blank"></a>
+							<a href="https://vk.com/" class="icon-vk" target="_blank"></a>
+							<a href="https://www.viber.com/" class="icon-viber" target="_blank"></a>
+							<a href="https://www.youtube.com/" class="icon-youtube" target="_blank"></a>
+							<a href="https://www.instagram.com/" class="icon-instagram" target="_blank"></a>
+						</div>
+						<div class="heder-contacts">
+							<a href="tel:88001002680" class="icon-phone">8 (800) 100 26 80</a>
+							<span>Ежедневно 10:00-20:00</span>
+						</div>
+					</div>
+				</div>
+				<div class="heder-bottom">
+					<div class="container">
+						<div class="heder-bottom-row row">
+							<div class="heder-search">
+								<a href="#" class="icon-search"><span>Поиск</span></a>
+							</div>
+							<div class="heder-logo">
+								<a href="#"><img src="./img/logo.png" alt="#"></a>
+							</div>
+							<div class="heder-basket">
+								<a href="#" onclick="Toggle1()" id="btn-like" class="link-like"><i class="icon-like"></i></a>
+								<a href="#" id="btn-basket"><i class="icon-basket"></i></a>
+							</div>
+						</div>
+						<nav class="heder-nav">
+							<ul>
+								<li><a href="./catalog.html">Каталог</a></li>
+								<li><a href="./services.html">Услуги</a></li>
+								<li><a href="#">О нас</a></li>
+								<li><a href="#">Доставка</a></li>
+								<li><a href="#">Отзывы</a></li>
+								<li><a href="#">Обучение</a></li>
+								<li><a href="#">Контакты</a></li>
+								<li><a href="#">Опт</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</heder>
+
+			<section>
+				<div class="slider">
+					<div class="slider-item">
+						<img data-lazy="./img/slider1.jpg" alt="slider1">
+					</div>
+					<div class="slider-item">
+						<img data-lazy="./img/slider2.jpg" alt="slider2">
+					</div>
+					<div class="slider-item">
+						<img data-lazy="./img/slider3.jpg" alt="slider3">
+					</div>
+					<div class="slider-item">
+						<img data-lazy="./img/slider4.jpg" alt="slider4">
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<div class="container">
+					<div class="colums-row">
+						<div class="colums-column">
+							<div class="colums-item">
+								<a href="#"><img src="./img/gituar.jpg" alt="gituar"></a>
+							</div>
+							<div class="colums-img">
+								<a href="#"><img src="./img/mediator.svg" alt="gituar">
+									<p>гитара</p>
+								</a>
+							</div>
+						</div>
+						<div class="colums-column">
+							<div class="colums-item">
+								<a href="#"><img src="./img/akulele.jpg" alt="akulele"></a>
+							</div>
+							<div class="colums-img">
+								<a href="#">
+									<img src="./img/mediator.svg" alt="akulele">
+									<p>акулеле</p>
+								</a>
+							</div>
+						</div>
+						<div class="colums-column">
+							<div class="colums-item">
+								<a href="#"><img src="./img/accessory.jpg" alt="accessory"></a>
+							</div>
+							<div class="colums-img">
+								<a href="#">
+									<img src="./img/mediator.svg" alt="accessory">
+									<p>аксесуары</p>
+								</a>
+							</div>
+						</div>
+						<div class="colums-column">
+							<div class="colums-item">
+								<a href="#"><img src="./img/string.jpg" alt="strong"></a>
+							</div>
+							<div class="colums-img">
+								<a href="#">
+									<img src="./img/mediator.svg" alt="strong">
+									<p>струны</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="brend">
+				<div class="container">
+					<div class="brend-item ">
+						<div class="brend-row">
+							<div class="brend-img">
+								<a href="#"><img src="./img/anuenue.png" alt="anuenue"></a>
+							</div>
+							<div class="brend-img">
+								<a href="#"><img src="./img/kerma.png" alt="kerma"></a>
+							</div>
+							<div class="brend-img">
+								<a href="#"><img src="./img/elixir.png" alt="elixir"></a>
+							</div>
+							<div class="brend-img">
+								<a href="#"><img src="./img/joyo.png" alt="joyo"></a>
+							</div>
+							<div class="brend-img">
+								<a href="#"><img src="./img/godin.png" alt="godin"></a>
+							</div>
+							<div class="brend-img">
+								<a href="#"><img src="./img/kremona.png" alt="kremona"></a>
+							</div>
+							<div class="brend-img">
+								<a href="#"><img src="./img/maton.png" alt="maton"></a>
+							</div>
+							<div class="brend-img">
+								<a href="#"><img src="./img/tom.png" alt="tom"></a>
+							</div>
+							<div class="brend-img">
+								<a href="#"><img src="./img/enya.png" alt="enya"></a>
+							</div>
+							<div class="brend-img">
+								<a href="#"><img src="./img/sigma.png" alt="sigma"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<div class="container">
+					<div class="title-center">
+						<a href="#">
+							<h1 class="title">Популярные товары</h1>
+						</a>
+					</div>
+					<div class="sliders">
+						<div class="slider-produkt">
+							<div class="produkt">
+								<div class="produkt-img">
+									<a href="#"><img src="./img/slider-produkt.jpg" alt="produkt"></a>
+								</div>
+								<div class="produkt-body">
+									<a href="#">
+										<span class="produkt-name">Укулеле</span>
+										<h2 class="produkt-title">Enya EUC-MAD</h2>
+									</a>
+									<div class="produkt-footer row">
+										<div class="footer-left">
+											<a href="#">
+												<span class="produkt-prise-underline">₽24 890</span>
+												<span class="produkt-prise">₽24 890</span>
+											</a>
+										</div>
+										<div class="footer-right">
+											<!-- <div class="produkt-raiting">
+												<div class="produkt-raiting-items">
+													<input id="produkt-raiting-5" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="5">
+													<label for="produkt-raiting-5" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-4" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="4">
+													<label for="produkt-raiting-4" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-3" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="3">
+													<label for="produkt-raiting-3" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-2" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="2">
+													<label for="produkt-raiting-2" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-1" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="1">
+													<label for="produkt-raiting-1" class="produkt-raiting-label"></label>
+												</div>
+											</div> -->
+
+											<div class="rating rating_set">
+												<div class="rating__body">
+													<div class="rating__active"></div>
+													<div class="rating__items">
+														<input type="radio" class="rating__item" value="1" name="rating">
+														<input type="radio" class="rating__item" value="2" name="rating">
+														<input type="radio" class="rating__item" value="3" name="rating">
+														<input type="radio" class="rating__item" value="4" name="rating">
+														<input type="radio" class="rating__item" value="5" name="rating">
+													</div>
+												</div>
+												<div class="rating__value">1</div>
+											</div>
+											<a href="#" class="produkt-review">Отзыв</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="produkt">
+								<div class="produkt-img">
+									<a href="#"><img src="./img/slider-produkt.jpg" alt="produkt"></a>
+								</div>
+								<div class="produkt-body">
+									<a href="#">
+										<span class="produkt-name">Укулеле</span>
+										<h2 class="produkt-title">Enya EUC-MAD</h2>
+									</a>
+									<div class="produkt-footer row">
+										<div class="footer-left">
+											<a href="#">
+												<span class="produkt-prise-underline">₽24 890</span>
+												<span class="produkt-prise">₽24 890</span>
+											</a>
+										</div>
+										<div class="footer-right">
+											<!-- <div class="produkt-raiting">
+												<div class="produkt-raiting-items">
+													<input id="produkt-raiting-5" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="5">
+													<label for="produkt-raiting-5" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-4" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="4">
+													<label for="produkt-raiting-4" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-3" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="3">
+													<label for="produkt-raiting-3" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-2" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="2">
+													<label for="produkt-raiting-2" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-1" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="1">
+													<label for="produkt-raiting-1" class="produkt-raiting-label"></label>
+												</div>
+											</div>
+											<div> -->
+
+											<div class="rating rating_set">
+												<div class="rating__body">
+													<div class="rating__active"></div>
+													<div class="rating__items">
+														<input type="radio" class="rating__item" value="1" name="rating">
+														<input type="radio" class="rating__item" value="2" name="rating">
+														<input type="radio" class="rating__item" value="3" name="rating">
+														<input type="radio" class="rating__item" value="4" name="rating">
+														<input type="radio" class="rating__item" value="5" name="rating">
+													</div>
+												</div>
+												<div class="rating__value">1</div>
+											</div>
+											<a href="#" class="produkt-review">Отзыв</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="produkt">
+								<div class="produkt-img">
+									<a href="#"><img src="./img/slider-produkt.jpg" alt="produkt"></a>
+								</div>
+								<div class="produkt-body">
+									<a href="#">
+										<span class="produkt-name">Укулеле</span>
+										<h2 class="produkt-title">Enya EUC-MAD</h2>
+									</a>
+									<div class="produkt-footer row">
+										<div class="footer-left">
+											<a href="#">
+												<span class="produkt-prise-underline">₽24 890</span>
+												<span class="produkt-prise">₽24 890</span>
+											</a>
+										</div>
+										<div class="footer-right">
+											<!-- <div class="produkt-raiting">
+												<div class="produkt-raiting-items">
+													<input id="produkt-raiting-5" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="5">
+													<label for="produkt-raiting-5" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-4" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="4">
+													<label for="produkt-raiting-4" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-3" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="3">
+													<label for="produkt-raiting-3" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-2" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="2">
+													<label for="produkt-raiting-2" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-1" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="1">
+													<label for="produkt-raiting-1" class="produkt-raiting-label"></label>
+												</div>
+											</div>
+											<div> -->
+
+											<div class="rating rating_set">
+												<div class="rating__body">
+													<div class="rating__active"></div>
+													<div class="rating__items">
+														<input type="radio" class="rating__item" value="1" name="rating">
+														<input type="radio" class="rating__item" value="2" name="rating">
+														<input type="radio" class="rating__item" value="3" name="rating">
+														<input type="radio" class="rating__item" value="4" name="rating">
+														<input type="radio" class="rating__item" value="5" name="rating">
+													</div>
+												</div>
+												<div class="rating__value">1</div>
+											</div>
+											<a href="#" class="produkt-review">Отзыв</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="produkt">
+								<div class="produkt-img">
+									<a href="#"><img src="./img/slider-produkt.jpg" alt="produkt"></a>
+								</div>
+								<div class="produkt-body">
+									<a href="#">
+										<span class="produkt-name">Укулеле</span>
+										<h2 class="produkt-title">Enya EUC-MAD</h2>
+									</a>
+									<div class="produkt-footer row">
+										<div class="footer-left">
+											<a href="#">
+												<span class="produkt-prise-underline">₽24 890</span>
+												<span class="produkt-prise">₽24 890</span>
+											</a>
+										</div>
+										<div class="footer-right">
+											<!-- <div class="produkt-raiting">
+												<div class="produkt-raiting-items">
+													<input id="produkt-raiting-5" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="5">
+													<label for="produkt-raiting-5" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-4" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="4">
+													<label for="produkt-raiting-4" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-3" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="3">
+													<label for="produkt-raiting-3" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-2" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="2">
+													<label for="produkt-raiting-2" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-1" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="1">
+													<label for="produkt-raiting-1" class="produkt-raiting-label"></label>
+												</div>
+											</div>
+											<div> -->
+
+											<div class="rating rating_set">
+												<div class="rating__body">
+													<div class="rating__active"></div>
+													<div class="rating__items">
+														<input type="radio" class="rating__item" value="1" name="rating">
+														<input type="radio" class="rating__item" value="2" name="rating">
+														<input type="radio" class="rating__item" value="3" name="rating">
+														<input type="radio" class="rating__item" value="4" name="rating">
+														<input type="radio" class="rating__item" value="5" name="rating">
+													</div>
+												</div>
+												<div class="rating__value">1</div>
+											</div>
+											<a href="#" class="produkt-review">Отзыв</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="produkt">
+								<div class="produkt-img">
+									<a href="#"><img src="./img/slider-produkt.jpg" alt="produkt"></a>
+								</div>
+								<div class="produkt-body">
+									<a href="#">
+										<span class="produkt-name">Укулеле</span>
+										<h2 class="produkt-title">Enya EUC-MAD</h2>
+									</a>
+									<div class="produkt-footer row">
+										<div class="footer-left">
+											<a href="#">
+												<span class="produkt-prise-underline">₽24 890</span>
+												<span class="produkt-prise">₽24 890</span>
+											</a>
+										</div>
+										<div class="footer-right">
+											<!-- <div class="produkt-raiting">
+												<div class="produkt-raiting-items">
+													<input id="produkt-raiting-5" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="5">
+													<label for="produkt-raiting-5" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-4" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="4">
+													<label for="produkt-raiting-4" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-3" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="3">
+													<label for="produkt-raiting-3" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-2" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="2">
+													<label for="produkt-raiting-2" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-1" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="1">
+													<label for="produkt-raiting-1" class="produkt-raiting-label"></label>
+												</div>
+											</div>
+											<div> -->
+
+											<div class="rating rating_set">
+												<div class="rating__body">
+													<div class="rating__active"></div>
+													<div class="rating__items">
+														<input type="radio" class="rating__item" value="1" name="rating">
+														<input type="radio" class="rating__item" value="2" name="rating">
+														<input type="radio" class="rating__item" value="3" name="rating">
+														<input type="radio" class="rating__item" value="4" name="rating">
+														<input type="radio" class="rating__item" value="5" name="rating">
+													</div>
+												</div>
+												<div class="rating__value">1</div>
+											</div>
+											<a href="#" class="produkt-review">Отзыв</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="produkt">
+								<div class="produkt-img">
+									<a href="#"><img src="./img/slider-produkt.jpg" alt="produkt"></a>
+								</div>
+								<div class="produkt-body">
+									<a href="#">
+										<span class="produkt-name">Укулеле</span>
+										<h2 class="produkt-title">Enya EUC-MAD</h2>
+									</a>
+									<div class="produkt-footer row">
+										<div class="footer-left">
+											<a href="#">
+												<span class="produkt-prise-underline">₽24 890</span>
+												<span class="produkt-prise">₽24 890</span>
+											</a>
+										</div>
+										<div class="footer-right">
+											<!-- <div class="produkt-raiting">
+												<div class="produkt-raiting-items">
+													<input id="produkt-raiting-5" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="5">
+													<label for="produkt-raiting-5" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-4" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="4">
+													<label for="produkt-raiting-4" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-3" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="3">
+													<label for="produkt-raiting-3" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-2" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="2">
+													<label for="produkt-raiting-2" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-1" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="1">
+													<label for="produkt-raiting-1" class="produkt-raiting-label"></label>
+												</div>
+											</div>
+											<div> -->
+
+											<div class="rating rating_set">
+												<div class="rating__body">
+													<div class="rating__active"></div>
+													<div class="rating__items">
+														<input type="radio" class="rating__item" value="1" name="rating">
+														<input type="radio" class="rating__item" value="2" name="rating">
+														<input type="radio" class="rating__item" value="3" name="rating">
+														<input type="radio" class="rating__item" value="4" name="rating">
+														<input type="radio" class="rating__item" value="5" name="rating">
+													</div>
+												</div>
+												<div class="rating__value">1</div>
+											</div>
+											<a href="#" class="produkt-review">Отзыв</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="produkt">
+								<div class="produkt-img">
+									<a href="#"><img src="./img/slider-produkt.jpg" alt="produkt"></a>
+								</div>
+								<div class="produkt-body">
+									<a href="#">
+										<span class="produkt-name">Укулеле</span>
+										<h2 class="produkt-title">Enya EUC-MAD</h2>
+									</a>
+									<div class="produkt-footer row">
+										<div class="footer-left">
+											<a href="#">
+												<span class="produkt-prise-underline">₽24 890</span>
+												<span class="produkt-prise">₽24 890</span>
+											</a>
+										</div>
+										<div class="footer-right">
+											<!-- <div class="produkt-raiting">
+												<div class="produkt-raiting-items">
+													<input id="produkt-raiting-5" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="5">
+													<label for="produkt-raiting-5" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-4" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="4">
+													<label for="produkt-raiting-4" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-3" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="3">
+													<label for="produkt-raiting-3" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-2" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="2">
+													<label for="produkt-raiting-2" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-1" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="1">
+													<label for="produkt-raiting-1" class="produkt-raiting-label"></label>
+												</div>
+											</div>
+											<div> -->
+
+											<div class="rating rating_set">
+												<div class="rating__body">
+													<div class="rating__active"></div>
+													<div class="rating__items">
+														<input type="radio" class="rating__item" value="1" name="rating">
+														<input type="radio" class="rating__item" value="2" name="rating">
+														<input type="radio" class="rating__item" value="3" name="rating">
+														<input type="radio" class="rating__item" value="4" name="rating">
+														<input type="radio" class="rating__item" value="5" name="rating">
+													</div>
+												</div>
+												<div class="rating__value">1</div>
+											</div>
+											<a href="#" class="produkt-review">Отзыв</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="produkt">
+								<div class="produkt-img">
+									<a href="#"><img src="./img/slider-produkt.jpg" alt="produkt"></a>
+								</div>
+								<div class="produkt-body">
+									<a href="#">
+										<span class="produkt-name">Укулеле</span>
+										<h2 class="produkt-title">Enya EUC-MAD</h2>
+									</a>
+									<div class="produkt-footer row">
+										<div class="footer-left">
+											<a href="#">
+												<span class="produkt-prise-underline">₽24 890</span>
+												<span class="produkt-prise">₽24 890</span>
+											</a>
+										</div>
+										<div class="footer-right">
+											<!-- <div class="produkt-raiting">
+												<div class="produkt-raiting-items">
+													<input id="produkt-raiting-5" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="5">
+													<label for="produkt-raiting-5" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-4" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="4">
+													<label for="produkt-raiting-4" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-3" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="3">
+													<label for="produkt-raiting-3" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-2" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="2">
+													<label for="produkt-raiting-2" class="produkt-raiting-label"></label>
+													<input id="produkt-raiting-1" type="radio" class="produkt-raiting-item"
+														name="produkt-raiting" value="1">
+													<label for="produkt-raiting-1" class="produkt-raiting-label"></label>
+												</div>
+											</div>
+											<div> -->
+
+											<div class="rating rating_set">
+												<div class="rating__body">
+													<div class="rating__active"></div>
+													<div class="rating__items">
+														<input type="radio" class="rating__item" value="1" name="rating">
+														<input type="radio" class="rating__item" value="2" name="rating">
+														<input type="radio" class="rating__item" value="3" name="rating">
+														<input type="radio" class="rating__item" value="4" name="rating">
+														<input type="radio" class="rating__item" value="5" name="rating">
+													</div>
+												</div>
+												<div class="rating__value">1</div>
+											</div>
+											<a href="#" class="produkt-review">Отзыв</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<div class="container">
+					<div class="title-center">
+						<a href="#">
+							<h2 class="title">Услуги</h2>
+						</a>
+					</div>
+					<div class="services">
+						<div class="services-body">
+							<div class="services-row">
+								<div class="services-item1">
+									<img src="./img/studies.jpg" alt="studies">
+									<a href="#">Обучение</a>
+									<a href="#" class="services-btn">Показать еще</a>
+								</div>
+								<div class="services-item1">
+									<img src="./img/description.jpg" alt="description">
+									<a href="#">Подбор инструмента</a>
+									<a href="#" class="services-btn">Показать еще</a>
+								</div>
+								<div class="services-item1">
+									<img src="./img/repair.jpg" alt="repair">
+									<a href="#">Ремонт</a>
+									<a href="#" class="services-btn">Показать еще</a>
+								</div>
+							</div>
+							<a href="#" class="services-btn-top"></a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section-club">
+				<div class="container">
+					<div class="club-row row">
+						<div class="club-img">
+							<img src="./img/club.png" alt="club">
+						</div>
+						<form action="">
+							<div class="club-title-form">
+								<h3 class="club-subtitle">Вступай в клуб</h3>
+								<h4 class="club-title">Guitar lavka</h4>
+								<p class="club-text">Полезные письма об инструментах и мероприятиях</p>
+							</div>
+							<div class="club-email">
+								<input type="email" placeholder="Ваш email...">
+								<button class="button-email"><img src="./img/button-email.svg" alt=""></button>
+							</div>
+							<a href="#" class="argument1">Я даю согласие на обработку своих персональных данных</a>
+						</form>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<footer>
+			<div class="container">
+				<div class="footer-row">
+					<div class="footer-left">
+						<div class="footer-logo">
+							<img src="./img/footer-logo.png" alt="logo">
+						</div>
+						<div class="footer-body-left">
+							<p>Мы работаем по всей России, поэтому можем сделать
+								онлайн-показ инструмента и доставить его до вашей двери</p>
+							<div class="footer-info">
+								<span>Остались вопроссы?</span>
+								<a href="tel:88001002680" class="phone">8 (800) 100 26 80</a>
+								<span>Ежедневно 10:00 - 20:00</span>
+								<a href="info@guitarlavka.ru">info@guitarlavka.ru</a>
+							</div>
+							<div class="messengers">
+								<a href="https://www.whatsapp.com/" class="icon-whatsapp"></a>
+								<a href="https://web.telegram.org/" class="icon-telegram"></a>
+								<a href="https://vk.com/" class="icon-vk"></a>
+								<a href="https://www.viber.com/" class="icon-viber"></a>
+								<a href="https://www.youtube.com/" class="icon-youtube"></a>
+								<a href="https://www.instagram.com/" class="icon-instagram"></a>
+							</div>
+							<div class="footer-payment">
+								<span>Способы оплаты</span>
+								<div class="cart">
+									<a href="#"><img src="./img/mastercardsvg.svg" alt="mastercardsvg"></a>
+									<a href="#"><img src="./img/pay.svg" alt="mastercardsvg"></a>
+									<a href="#"><img src="./img/paypal.svg" alt="mastercardsvg"></a>
+									<a href="#"><img src="./img/visa.svg" alt="mastercardsvg"></a>
+									<a href="#"><img src="./img/yandex.svg" alt="mastercardsvg"></a>
+								</div>
+							</div>
+						</div>
+						<div class="copart">
+							<p>© 2021 GuitarLavka - музыкальный магазин
+								<span class="copart-politic">Политика конфиденциальности</span>
+							</p>
+						</div>
+					</div>
+					<div class="footer-right">
+						<div class="footer-body-right">
+							<div class="footer-list">
+								<h5>Каталог</h5>
+								<ul>
+									<li><a href="#">Гитары</a></li>
+									<li><a href="#">Укулеле</a></li>
+									<li><a href="#">Аксесуары</a></li>
+									<li><a href="#">Струны</a></li>
+								</ul>
+							</div>
+							<div class="footer-list">
+								<h5>Сервис</h5>
+								<ul>
+									<li><a href="#">Оплата</a></li>
+									<li><a href="#">Гарантия</a></li>
+									<li><a href="#">Доставка</a></li>
+								</ul>
+							</div>
+							<div class="footer-list">
+								<h5>Услуги</h5>
+								<ul>
+									<li><a href="#">Ремонт</a></li>
+									<li><a href="#">Онлайн подбор</a></li>
+									<li><a href="#">Обучение</a></li>
+									<li><a href="#">Комиссионка</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="phone-img">
+							<img src="./img/phone.svg" alt="phone">
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="./js/jquery-3.0.0.min.js"></script>
+	<script src="./slick/slick.min.js"></script>
+	<script src="./js/sliders.js"></script>
+	<script src="./js/raiting-star.js"></script>
+	<script src="./js/like.js"></script>
+</body>
+
+</html>

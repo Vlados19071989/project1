@@ -1,0 +1,28 @@
+@media (max-width: 56.25em) {
+	.heder-top {
+		span {
+			display: none;
+		}
+		.heder-city {
+			margin-right: 5.43em;
+		}
+		.icon-phone {
+			margin: 0;
+		}
+		.messengers a {
+			font-size: 0.875rem;
+		}
+	}
+}	
+
+@media (max-width: 34.375em) {
+	.messengers {
+		display: none;
+	}
+}	
+
+@media (max-width: 20em) {
+	.heder-top {
+		font-size: 0.75rem;
+	}
+}	

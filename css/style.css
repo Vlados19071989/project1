@@ -1,0 +1,92 @@
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.wrapper .content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  background-color: hsl(60deg, 3%, 6%);
+}
+
+.container {
+  max-width: 68.125rem;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.title-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.title-center a {
+  display: block;
+  width: 340px;
+  text-align: center;
+  position: relative;
+  margin: 80px 0 40px 0;
+}
+.title-center a .title {
+  font-size: 2.25rem;
+  padding-bottom: 10px;
+}
+.title-center a .title:hover {
+  color: #cc7408;
+}
+.title-center a::before {
+  content: "";
+  width: 0px;
+  height: 3px;
+  background-color: #cc7408;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+}
+.title-center a:hover::before {
+  width: 100%;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.messengers a {
+  margin-right: 20px;
+  position: relative;
+  font-size: 1.313rem;
+  width: 300px;
+}
+.messengers a:last-child {
+  margin: 0;
+}
+
+a:hover {
+  color: #cc7408;
+}

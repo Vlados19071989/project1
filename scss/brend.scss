@@ -1,0 +1,36 @@
+.colums-row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 7.28em;
+	.colums-column {
+		flex-basis: 50%;
+		position: relative;
+		.colums-img {
+			max-width: 32%;
+			text-align: center;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			p {
+				font-size: 1.5rem;
+				margin-top: 1.25em;
+			}
+		}
+	}
+}
+.brend {
+	background-color: #cc7408;
+	margin-top: -230px;
+	padding-top: 230px;
+}
+.brend-row {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	.brend-img,
+	a {
+		flex-basis: 20%;
+		text-align: center;
+	}
+}

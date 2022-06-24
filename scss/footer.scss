@@ -1,0 +1,112 @@
+// 		.footer-body-right {
+// 			display: flex;
+// 			justify-content: space-between;
+// 			min-width: 435px;
+// 			h5 {
+// 				font-size: 24px;
+// 				margin-bottom: 10px;
+// 				color: #fff;
+// 			}
+// 			ul li a{
+// 				line-height: 25px;
+// 				color: #c4c4c4;
+// 				font-size: 1.286rem;
+// 				&:hover {
+// 					color: #cc7408;;
+// 				}
+// 			}
+// 		}
+// 		.phone-img {
+// 			margin-top: 100px;
+// 		}
+// 	}
+// }
+// .copart {
+// 	margin-top: 160px;
+// 	.copart-politic {
+// 		display: block;
+// 	}
+// }
+
+footer {
+	background-color: hsl(60, 3%, 6%);
+	position: relative;
+	line-height: 22px;
+	color: #c4c4c4;
+	letter-spacing: 1px;
+	padding: 50px 0;
+	&::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 1px;
+		width: 100%;
+		background-color: #242424;
+	}
+}
+.footer-row {
+	display: flex;
+	justify-content: space-between;
+	.footer-logo {
+		max-width: 385px;
+		img {
+			width: 100%;
+		}
+	}
+}
+.footer-body-left {
+	max-width: 450px;
+	.footer-info {
+		.phone {
+			font-size: 35px;
+			line-height: 40px;
+		}
+		span {
+			display: block;
+			margin-top: 30px;
+			text-transform: uppercase;
+		}
+	}
+}
+.messengers {
+	margin: 20px 0;
+}
+.footer-payment {
+	.cart {
+		display: flex;
+		align-items: center;
+	}
+}
+.copart {
+	margin-top: 160px;
+	.copart-politic {
+		display: block;
+	}
+}
+
+.footer-body-right {
+	display: flex;
+	justify-content: space-between;
+	min-width: 435px;
+}
+.footer-list {
+	text-align: start;
+	h5 {
+		font-size: 24px;
+		margin-bottom: 10px;
+		color: #fff;
+	}
+	ul li a {
+		line-height: 25px;
+		color: #c4c4c4;
+		font-size: 1.286rem;
+		text-align: left;
+		&:hover {
+			color: #cc7408;
+		}
+	}
+}
+.phone-img {
+	margin-top: 100px;
+}

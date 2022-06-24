@@ -1,0 +1,32 @@
+.heder-top__row {
+  padding: 0.71em 1.07em;
+  position: relative;
+}
+.heder-top__row::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: #242424;
+}
+.heder-top__row a,
+.heder-top__row span {
+  color: rgba(255, 255, 255, 0.6);
+}
+.heder-top__row a:hover {
+  color: #cc7408;
+}
+
+.heder-city {
+  margin-right: 11.43em;
+}
+.heder-city span {
+  color: rgba(255, 255, 255, 0.13);
+  margin-right: 1.07em;
+}
+
+.heder-contacts a {
+  margin-right: 1.07em;
+}

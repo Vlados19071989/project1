@@ -1,0 +1,77 @@
+.heder-top__row {
+  padding: 0 20px;
+  font-size: 14px;
+  min-height: 32px;
+  position: relative;
+}
+.heder-top__row::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: #242424;
+}
+.heder-top__row .heder-city a {
+  color: rgba(255, 255, 255, 0.13);
+  margin-right: 190px;
+}
+.heder-top__row a,
+.heder-top__row span {
+  color: rgba(255, 255, 255, 0.6);
+}
+.heder-top__row .heder-contacts span {
+  text-transform: uppercase;
+}
+.heder-top__row a {
+  margin-right: 20px;
+  position: relative;
+}
+.heder-top__row a:hover {
+  color: #cc7408;
+}
+
+.container {
+  max-width: 1090px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.heder-bottom-row {
+  margin-top: 20px;
+}
+.heder-bottom-row .heder-logo {
+  max-width: 235px;
+}
+.heder-bottom-row .heder-logo a img {
+  width: 100%;
+}
+.heder-bottom-row .icon-like {
+  margin-right: 40px;
+}
+
+.heder-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0;
+}
+.heder-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.heder-nav ul li {
+  margin-right: 20px;
+}
+.heder-nav ul li a {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.heder-nav ul li a:hover {
+  color: #cc7408;
+}

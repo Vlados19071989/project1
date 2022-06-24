@@ -1,0 +1,48 @@
+.heder-search {
+	span {
+		margin-left: 0.36em;
+	}
+}
+.heder-logo {
+	max-width: 20.63rem;
+	img {
+		width: 100%;
+	}
+}
+.heder-basket .link-like {
+	margin-right: 20px;
+}
+// .heder-basket {
+// 	.icon-like {
+// 		position: relative;
+// 		&:hover {
+// 			color: #cc7408;
+// 		}
+// 		&:focus {
+// 			opacity: 0;
+// 		}
+// 		&::after {
+// 			content: "❤";
+// 			position: absolute;
+// 			left: 0;
+// 			top: -2px;
+// 			opacity: 0;
+// 			&:active {
+// 				opacity: 1;
+// 			}
+// 		}
+
+// 	}
+// }
+
+.heder-nav {
+	display: flex;
+	justify-content: center;
+	margin: 1.43em 0;
+	ul {
+		display: flex;
+		li {
+			margin-right: 1.43em;
+		}
+	}
+}

@@ -1,0 +1,84 @@
+.services-body {
+  position: relative;
+}
+.services-body .services-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.services-body .services-row .services-item1 {
+  position: relative;
+  width: 300px;
+}
+.services-body .services-row .services-item1:nth-child(2) {
+  margin: 0 20px;
+}
+.services-body .services-row .services-item1 img {
+  width: 100%;
+}
+.services-body .services-row .services-item1 a {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 0;
+  text-transform: uppercase;
+  background: rgba(19, 18, 24, 0.8);
+}
+.services-body .services-row .services-item1 a:hover {
+  color: #ea8305;
+}
+.services-body .services-row .services-item1 .services-btn {
+  font-size: 18px;
+  visibility: hidden;
+}
+.services-body .services-row .services-item1 .services-btn:hover {
+  color: #ea8305;
+}
+
+.services-btn-top {
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  background: rgba(234, 131, 5, 0.71);
+}
+.services-btn-top:hover, .services-btn-top:focus {
+  -webkit-filter: brightness(1.5);
+          filter: brightness(1.5);
+}
+.services-btn-top::before, .services-btn-top::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.services-btn-top::before {
+  width: 3px;
+  height: 25px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background: rgba(255, 255, 255, 0.6);
+}
+.services-btn-top::after {
+  width: 15px;
+  height: 15px;
+  -webkit-transform: translate(-50%, -70%) rotate(45deg);
+          transform: translate(-50%, -70%) rotate(45deg);
+  border-top: 3px solid rgba(255, 255, 255, 0.6);
+  border-left: 3px solid rgba(255, 255, 255, 0.6);
+}
